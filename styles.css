@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 body{
@@ -48,7 +47,7 @@ body{
     justify-items: center;
     justify-content: center;
     gap: 30px;
-
+    
 }
 .container .card{
     max-width: 340px;
@@ -78,6 +77,7 @@ body{
     display: flex;
     justify-content: space-around;
     height: auto;
+    font-family: 'Nunito', sans-serif;
 }
 .bottom .child1, .bottom .child2{
     width: 40vw;
@@ -92,9 +92,10 @@ body{
 }
 .bottom h1{
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .bottom p{
+    margin-top: 20px;
     line-height: 2;
 }
 @media only screen and (max-width:786px) {
